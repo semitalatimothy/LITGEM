@@ -1,0 +1,9 @@
+@mixin section-padding {
+  padding: 4rem 0;
+}
+
+@mixin card-style {
+  border-radius: $border-radius;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  background-color: white;
+}

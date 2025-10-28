@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+.services-section {
+  background: white;
+  padding: 5rem 0;
+  font-family: "Montserrat", sans-serif;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .service-card {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .service-img {
+      height: 180px;
+      object-fit: cover;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+    }
+
+    .card-body {
+      padding: 1.25rem;
+      background-color: #fff;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+      font-family: "Montserrat", sans-serif; // ✅ ensures card text uses Montserrat
+    }
+
+    .card-title {
+      font-weight: 600;
+      color: black;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-text {
+      font-size: 0.95rem;
+      color: #555;
+      font-weight: 400;
+    }
+  }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 2rem;
+    }
+
+    .service-img {
+      height: 150px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@use './variables' as *;
+
+.navbar {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+ .logo {
+    height: 40px; // actual height that controls navbar size
+    width: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    transform: scale(3); // visually enlarges the logo without changing layout
+    transform-origin: left center;
+  }
+
+  .nav-link {
+    color: #333;
+    margin-left: 1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+
+    &:hover,
+    &.active {
+      color: $primary-color;
+    }
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Remove default Bootstrap top padding */
+body {
+  padding-top: 0; // remove extra space
+}
+
+/* Ensure page content starts immediately below navbar */
+.page-content {
+  margin-top: 4.1rem; 
+}
+
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    margin-left: 0;
+    padding: 0.5rem 0;
+  }
+}
