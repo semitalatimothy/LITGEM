@@ -30,7 +30,10 @@ function Home() {
         <div className="hero-content">
           <h1>Empowering Lives with Diabetes Care</h1>
           <p>Your trusted clinic for comprehensive diabetes management and wellness.</p>
-          <a href="/services" className="btn btn-primary mt-3">View Our Services</a>
+          <a href="https://wa.me/256782239258" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="btn btn-primary mt-3">Let's get started</a>
         </div>
       </section>
 
