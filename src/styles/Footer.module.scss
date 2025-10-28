@@ -16,7 +16,31 @@
 }
 
 .subtext {
-  color: #6c757d;
   font-weight: 400;
   font-size: 0.9rem;
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #6c757d;
+
+  .whatsappLink {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;          // inline so it centers as a whole
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    .whatsappIcon {
+      width: 18px;
+      height: 18px;
+      object-fit: contain;
+    }
+  }
 }
+
+
