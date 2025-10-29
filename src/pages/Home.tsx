@@ -28,8 +28,8 @@ function Home() {
     <div className="home">
       <section className="hero">
         <div className="hero-content">
-          <h1>Empowering Lives with Diabetes Care</h1>
-          <p>Your trusted clinic for comprehensive diabetes management and wellness.</p>
+          <h1>Empowering Metabolic Health for Lifelong Wellness</h1>
+          <p>Root-cause focused, integrative care for diabetes, obesity, and optimal vitality.</p>
           <a href="https://wa.me/256782239258" 
             target="_blank" 
             rel="noopener noreferrer" 
